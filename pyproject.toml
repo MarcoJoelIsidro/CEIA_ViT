@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tps-ceia-vit"
+version = "0.1.0"
+description = "Entorno para la resolución de trabajos con vision transformers"
+authors = ["Isidro Marco <marcojoelisidro@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.5.0"
+torchvision = "^0.20.0"
+matplotlib = "^3.9.2"
+pillow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
